@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FernandoDesings - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <div class="header-left">
+                <button class="dark-mode-toggle" id="darkModeToggle">
+                    <span id="modeIcon">🌙</span>
+                    <span id="modeText">Modo Oscuro</span>
+                </button>
+            </div>
+            <div class="header-center">
+                <div class="language-selector">
+                    <button class="lang-btn active" data-lang="es">ES</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="theme-selector">
+                    <button class="theme-btn" data-color="#9D6BFF" style="background: #9D6BFF;"></button>
+                    <button class="theme-btn" data-color="#4A90E2" style="background: #4A90E2;"></button>
+                    <button class="theme-btn" data-color="#27AE60" style="background: #27AE60;"></button>
+                    <button class="theme-btn" data-color="#F39C12" style="background: #F39C12;"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <aside class="column-1">
+            <div class="profile-card">
+                <div class="profile-header">
+                    <img src="profile.JPG" alt="fernando" class="profile-img">
+                </div>
+                <div class="profile-info">
+                    <h2>FernandoDesings</h2>
+                    <p class="role translate" data-es="Desarrollador Front end" data-en="Front end developer">Desarrollador Front end</p>
+                    <div class="contact-info">
+                        <p><span>📧</span> <a href="mailto:fernando@gmail.com">fernando@gmail.com</a></p>
+                        <p><span>📱</span> +34 123456789</p>
+                    </div>
+                    <p class="bio translate" data-es="Soy una persona que le apasionado por la  tecnolgia y que esta empezando en el mundo del desarrollo web.." data-en="I am a person who is passionate about technology and is starting out in the world of web development..">
+                      Soy una persona que le apasionado por la  tecnolgia y que esta empezando en el mundo del desarrollo web.
+                    </p>
+                </div>
+            </div>
+
+            <div class="experiences-section">
+                <h3 class="translate" data-es="Experiencias" data-en="Experiences">Experiencias</h3>
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <img src="front.JPG" alt="Company">
+                    </div>
+                    <div class="experience-content">
+                        <p class="experience-date translate" data-es="Feb 2017 - Actualidad" data-en="Feb 2017 - Current">Feb 2017 - Actualidad</p>
+                        <h4 class="translate" data-es="Desarrollador Front End" data-en="Front End Developer">Desarrollador Front End</h4>
+                        <p class="translate" data-es="Desarrollo de interfaces web modernas y responsivas." data-en="Development of modern and responsive web interfaces.">Desarrollo de interfaces web modernas y responsivas.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <img src="web.JPG" alt="Company">
+                    </div>
+                    <div class="experience-content">
+                        <p class="experience-date translate" data-es="Ene 2015 - Ene 2017" data-en="Jan 2015 - Jan 2017">Ene 2015 - Ene 2017</p>
+                        <h4 class="translate" data-es="Diseñador Web" data-en="Web Designer">Diseñador Web</h4>
+                        <p class="translate" data-es="Diseño de experiencias de usuario atractivas y funcionales." data-en="Design of attractive and functional user experiences.">Diseño de experiencias de usuario atractivas y funcionales.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <img src="diseñador.JPG" alt="Company">
+                    </div>
+                    <div class="experience-content">
+                        <p class="experience-date translate" data-es="Mar 2013 - Dic 2014" data-en="Mar 2013 - Dec 2014">Mar 2013 - Dic 2014</p>
+                        <h4 class="translate" data-es="Diseñador Gráfico" data-en="Graphic Designer">Diseñador Gráfico</h4>
+                        <p class="translate" data-es="Creación de identidades visuales y material gráfico." data-en="Creation of visual identities and graphic material.">Creación de identidades visuales y material gráfico.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hobbies-section">
+                <h3 class="translate" data-es="Pasatiempos" data-en="Hobbies">Hobbies</h3>
+                <div class="hobby-card">
+                    <img src="karate.JPG" alt="Artes-marciales" class="hobby-image">
+                    <div class="hobby-content">
+                        <h4 class="translate" data-es="Artes-marciales" data-en="Karate">Artes-marciales</h4>
+                        <p class="translate" data-es="Soy persona muy activa que le encanta la disciplina del mundo de las artes marciales." data-en="I am a very active person who loves the discipline of the martial arts world..">Soy persona muy activa que le encanta la disciplina del mundo de las artes marciales.</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="columns-2-3">
+            <section class="skills-section">
+                <div class="skills-group">
+                    <h3>Front End</h3>
+                    <p class="years-experience translate" data-es="Años de experiencia" data-en="Years of experience">Años de experiencia</p>
+                    <div class="years-scale">
+                        <span>0</span>
+                        <span>5</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>PHP</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>React</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3 class="translate" data-es="Diseño" data-en="Design">Diseño</h3>
+                    <div class="skill-item">
+                        <span>Photoshop</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Illustrator</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Figma</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <h3>Multimedia</h3>
+                    <div class="skill-item">
+                        <span>After Effects</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Premiere</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects-section">
+                <h2 class="projects-title translate" data-es="Mis Proyectos" data-en="My Projects">Mis Proyectos</h2>
+                
+                <div class="projects-grid">
+                    <!-- PROYECTO 1: Space Animation -->
+                    <div class="project-card" data-project="space">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop" alt="Space Animation" class="project-image">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">GSAP</span>
+                                <span class="tag">CSS3</span>
+                            </div>
+                            <h3 class="translate" data-es="Animación Espacial" data-en="Space Animation">Animación Espacial</h3>
+                            <p class="project-description translate" data-es="Proyecto interactivo con animaciones espaciales en 3D utilizando GSAP y JavaScript vanilla. Incluye efectos de partículas y transiciones suaves." data-en="Interactive project with 3D space animations using GSAP and vanilla JavaScript. Includes particle effects and smooth transitions.">
+                                Proyecto interactivo con animaciones espaciales en 3D utilizando GSAP y JavaScript vanilla. Incluye efectos de partículas y transiciones suaves.
+                            </p>
+                            <div class="project-buttons">
+                                <button class="btn-secondary demo-btn translate" data-es="Demo" data-en="Demo">Demo</button>
+                                <button class="btn-secondary code-btn translate" data-es="Código" data-en="Code">Código</button>
+                                <a href="https://github.com/doriandesings/space-animation" target="_blank" class="btn-github">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO 2: E-Commerce -->
+                    <div class="project-card" data-project="ecommerce">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=400&h=300&fit=crop" alt="E-Commerce" class="project-image">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Redux</span>
+                                <span class="tag">Stripe</span>
+                            </div>
+                            <h3 class="translate" data-es="Tienda Online" data-en="E-Commerce Store">Tienda Online</h3>
+                            <p class="project-description translate" data-es="Plataforma de comercio electrónico completa con carrito de compras, pasarela de pago y panel de administración. Desarrollada con React y Redux." data-en="Complete e-commerce platform with shopping cart, payment gateway and admin panel. Developed with React and Redux.">
+                                Plataforma de comercio electrónico completa con carrito de compras, pasarela de pago y panel de administración. Desarrollada con React y Redux.
+                            </p>
+                            <div class="project-buttons">
+                                <button class="btn-secondary demo-btn translate" data-es="Demo" data-en="Demo">Demo</button>
+                                <button class="btn-secondary code-btn translate" data-es="Código" data-en="Code">Código</button>
+                                <a href="https://github.com/doriandesings/ecommerce-store" target="_blank" class="btn-github">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO 3: Dashboard Analytics -->
+                    <div class="project-card" data-project="dashboard">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" alt="Dashboard" class="project-image">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">Chart.js</span>
+                                <span class="tag">API REST</span>
+                            </div>
+                            <h3 class="translate" data-es="Panel de Analíticas" data-en="Analytics Dashboard">Panel de Analíticas</h3>
+                            <p class="project-description translate" data-es="Dashboard interactivo para visualización de datos en tiempo real. Gráficos dinámicos, filtros avanzados y exportación de reportes en múltiples formatos." data-en="Interactive dashboard for real-time data visualization. Dynamic charts, advanced filters and report export in multiple formats.">
+                                Dashboard interactivo para visualización de datos en tiempo real. Gráficos dinámicos, filtros avanzados y exportación de reportes en múltiples formatos.
+                            </p>
+                            <div class="project-buttons">
+                                <button class="btn-secondary demo-btn translate" data-es="Demo" data-en="Demo">Demo</button>
+                                <button class="btn-secondary code-btn translate" data-es="Código" data-en="Code">Código</button>
+                                <a href="https://github.com/doriandesings/analytics-dashboard" target="_blank" class="btn-github">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO 4: Portfolio Web -->
+                    <div class="project-card" data-project="portfolio">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=300&fit=crop" alt="Portfolio" class="project-image">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <h3 class="translate" data-es="Portfolio Creativo" data-en="Creative Portfolio">Portfolio Creativo</h3>
+                            <p class="project-description translate" data-es="Sitio web de portfolio personal con diseño minimalista y elegante. Incluye galería de proyectos, sección de blog y formulario de contacto funcional." data-en="Personal portfolio website with minimalist and elegant design. Includes project gallery, blog section and functional contact form.">
+                                Sitio web de portfolio personal con diseño minimalista y elegante. Incluye galería de proyectos, sección de blog y formulario de contacto funcional.
+                            </p>
+                            <div class="project-buttons">
+                                <button class="btn-secondary demo-btn translate" data-es="Demo" data-en="Demo">Demo</button>
+                                <button class="btn-secondary code-btn translate" data-es="Código" data-en="Code">Código</button>
+                                <a href="https://github.com/doriandesings/creative-portfolio" target="_blank" class="btn-github">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO 5: App de Tareas -->
+                    <div class="project-card" data-project="tasks">
+                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop" alt="Task App" class="project-image">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Material-UI</span>
+                            </div>
+                            <h3 class="translate" data-es="Gestor de Tareas" data-en="Task Manager">Gestor de Tareas</h3>
+                            <p class="project-description translate" data-es="Aplicación web para gestión de tareas y proyectos con autenticación de usuarios, categorías personalizadas y sincronización en tiempo real con Firebase." data-en="Web application for task and project management with user authentication, custom categories and real-time synchronization with Firebase.">
+                                Aplicación web para gestión de tareas y proyectos con autenticación de usuarios, categorías personalizadas y sincronización en tiempo real con Firebase.
+                            </p>
+                            <div class="project-buttons">
+                                <button class="btn-secondary demo-btn translate" data-es="Demo" data-en="Demo">Demo</button>
+                                <button class="btn-secondary code-btn translate" data-es="Código" data-en="Code">Código</button>
+                                <a href="https://github.com/doriandesings/task-manager" target="_blank" class="btn-github">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal para Demo -->
+    <div class="modal" id="demoModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('demoModal')">&times;</span>
+            <h3 class="translate" data-es="Vista Previa del Proyecto" data-en="Project Preview">Vista Previa del Proyecto</h3>
+            <iframe id="demoFrame" src=""></iframe>
+        </div>
+    </div>
+
+    <!-- Modal para Código -->
+    <div class="modal" id="codeModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('codeModal')">&times;</span>
+            <h3 class="translate" data-es="Código del Proyecto" data-en="Project Code">Código del Proyecto</h3>
+            <pre><code id="codeContent"></code></pre>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
